@@ -1,0 +1,79 @@
+Final exam
+
+Problem 01
+A Lambertian wall (width = a, height = b) with radiance L is at a right
+angle with the black floor (width = a, depth = c). What is the surface
+irradiance at the center of the floor (a/2, c/2)? Neglect all other 
+surrounds.
+
+
+Problem 02
+Given a monitor with the following corresponding chromaticity pairs:
+
+phosphor     r      g      b         x       y       z
+  red        1      0      0        0.61    0.36    0.03
+  green      0      1      0        0.28    0.60    0.20
+  blue       0      0      1        0.18    0.09    0.73
+  white     1/3    1/3    1/3       0.3027  0.3281  0.3692
+
+Determine the spectral sensitivity functions of the camera whose raw RGB
+can be sent to this monitor without color correction.
+
+
+Problem 03
+How to reformulat the color matching experiments from the method of 
+adjustment to the method of two alternative forced choice? What is the
+trade-off?
+
+
+Problem 04
+Determine the OTF of a lens with an annulus aperture function (outer 
+radius R and inner radius r) and a focal length of f.
+
+
+Problem 05
+In the CIE XYZ system, (X), (Y), (Z) are the primaries. We know that these
+three primaries are not physically realizable because they fall ouside 
+of the spectral locus. Let us pretend that we can have negative power in 
+the spectral light. Can you synthesize three spectra that can be used as 
+the (X), (Y), and (Z) primaries in the color matching experiment? Note that
+the solutions are not unique. So any answer is fine.
+
+
+Problem 06
+For the application of edge sharpening, design a working color space that
+can keep the color of the sharpened image look similar to the input image.
+
+
+Problem 07
+IEEE CPIQ standards recommended the acutance as a measure of image
+sharpness, using the system MTF weighted by the human contrast sensitivity.
+What do you think are the deficiencies of this standard?
+
+
+Problem 08
+In digital color image processing, it is very important to preserve the
+color ratios so that the colors are not distorted in the final 
+reproduction. However, in the ISP, there is a 3x3 color correction matrix.
+Color ratios are changed after the 3x3 matrix. Is there something wrong
+here?
+
+
+Problem 09
+How do we generate points uniformly at random on the surface of a sphere 
+in a high dimensional space?
+
+Problem 10
+For the hypothetical eye below, calculate the retina distance d_r and d_a 
+so that the retinal images will be in focus for objects at infinity and at
+25 cm.
+
+surface         n       radius(relaxed) distance    radius(accomm.) distance
+cornea(front)   1.376   7.700           0.000       7.700           0.000
+cornea(back)    1.336   6.800           0.500       6.800           0.550
+lens(front)     1.406   10.00           3.600       5.330           3.200
+lens(back)      1.336   -5.760          7.200       -5.330          7.700
+retina                                  d_r=?                       d_a=?
+
+
+
